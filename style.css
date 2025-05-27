@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+  overflow-x: hidden;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -572,6 +575,9 @@ html {
   padding: 0 60px;
 }
 @media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
   .sidebar .navright button {
     display: flex;
   }
@@ -581,6 +587,7 @@ html {
   .navbar {
     flex-direction: row;
     height: auto;
+    width: 100%;
     padding: 10px 10px;
   }
   .hide {
@@ -621,7 +628,7 @@ html {
   }
 
   .card {
-    width: 90%;
+    width: 100%;
   }
 
   .category-grid {
