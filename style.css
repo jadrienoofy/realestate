@@ -664,16 +664,5 @@ html {
   .footer-section {
     flex: 1 1 100%;
   }
-  .navmid li:hover,
-  .navright button:hover,
-  .search-bar button:hover,
-  .card:hover,
-  .category-card:hover,
-  .benefit-card:hover,
-  .agent-card:hover,
-  .cta-button:hover,
-  .butt button:hover {
-    all: unset;
-    cursor: default;
-  }
 }
+
