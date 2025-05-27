@@ -1,0 +1,93 @@
+2. Hero Section
+Full-width background image or video (cityscape, modern homes, etc.)
+
+Headline: “Find Your Dream Home Today”
+
+Subtext: “Browse thousands of properties across the country.”
+
+Search Bar (with filters):
+
+Location
+
+Property Type (House, Condo, Lot, etc.)
+
+Price Range
+
+Bedrooms / Bathrooms
+
+[Search Button]
+
+3. Featured Listings
+Section Title: “Hot Listings” or “Properties You’ll Love”
+
+Grid of 3–6 property cards
+
+Thumbnail image
+
+Price
+
+Location
+
+Key features (e.g., 3 Beds • 2 Baths • 120 sqm)
+
+“View Details” button
+
+4. Property Categories / Browse by Need
+Icons or cards for:
+
+Buy a Home
+
+Rent a Property
+
+Commercial Spaces
+
+Luxury Listings
+
+New Developments
+
+5. Why Choose Us / Benefits Section
+Headline: “Why Choose [Your Brand]?”
+
+3–4 columns/icons with brief explanations:
+
+Trusted Agents
+
+Verified Listings
+
+Fast & Secure Process
+
+Expert Support
+
+6. Agent Highlights / Testimonials
+Option A: “Meet Our Agents” carousel (with agent photo, name, brief intro)
+
+Option B: “What Our Clients Say” testimonials section (1–3 quotes)
+
+7. Blog Preview / Market Tips (optional)
+Title: “Real Estate Tips & Trends”
+
+Display 2–3 recent blog posts or news items
+
+8. Call to Action Banner
+Engaging background
+
+Text: “Ready to make your next move?”
+
+CTA Button: “Get Started” / “Contact an Agent”
+
+9. Footer
+Quick Links
+
+Home, Buy, Rent, Sell, Blog, FAQ
+
+Contact Info
+
+Phone number, Email, Office Address
+
+Social Media Icons
+
+Newsletter Signup
+
+Legal
+
+Terms of Use, Privacy Policy

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="logo/log.png" type="image/x-icon">
+    <script src="index.js"></script>
+    <title>Jester & Co. Real Estate</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navleft">
+            <a href="index.html"><img src="logo/logo.png" alt=""></a>
+        </div>
+        <div class="navmid">
+          <ul class="sidebar" style="display: none;">
+            <li class="close-btn" onclick="hideSidebar()">
+                <a href="#"><img src="icons/close.svg" alt="Close"></a>
+            </li>
+                <li><a href="#"></a>home</li>
+                <li><a href="#"></a>buy</li>
+                <li><a href="#"></a>rent</li>
+                <li><a href="#"></a>sell</li>
+                <li><a href="#"></a>agents</li>
+                <li><a href="#"></a>about us</li>
+                <li><a href="#"></a>contact</li>
+                <div class="navright">
+                  <button>
+                      List Your Property
+                  </button>
+                </div>
+            </ul>
+            <ul class="hide">
+                <li><a href="#" class="hide"></a>home</li>
+                <li><a href="#" class="hide"></a>buy</li>
+                <li><a href="#" class="hide"></a>rent</li>
+                <li><a href="#" class="hide"></a>sell</li>
+                <li><a href="#" class="hide"></a>agents</li>
+                <li><a href="#" class="hide"></a>about us</li>
+                <li><a href="#" class="hide"></a>contact</li>
+            </ul>
+        </div>
+        <div class="navright">
+            <button class="hide">
+                List Your Property
+            </button>
+        </div>
+        <li onclick="showSidebar()" class="ham" style="list-style: none;"><a href="#"><img src="icons/ham.svg" alt=""></a></li>
+    </nav>
+    <header class="hero">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1>Find Your Dream Home Today</h1>
+            <p>Browse thousands of properties across the country.</p>
+
+            <form class="search-bar">
+                <input type="text" placeholder="Location">
+                <select>
+                    <option value="">Property Type</option>
+                    <option value="house">House</option>
+                    <option value="condo">Condo</option>
+                    <option value="lot">Lot</option>
+                </select>
+                <input type="text" placeholder="Price Range">
+                <input type="number" placeholder="Bedrooms">
+                <input type="number" placeholder="Bathrooms">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</header>
+    <section class="list">
+        <div class="headtext">
+            <h1>Hot Listings</h1>
+        </div>
+        <div class="cardcon">
+            <div class="card">
+                <div class="pic">
+                    <img src="images/house1.jpg" alt="House 1">
+                </div>
+                <div class="price">
+                    <h2>₱2,000,000</h2>
+                </div>
+                <div class="location">
+                    <h2>Quezon, City</h2>
+                </div>
+                <div class="keyfeat">
+                    <ul>
+                        <li>3 Beds</li>
+                        <li>2 Baths</li>
+                        <li>120 sqm.</li>
+                    </ul>
+                </div>
+                <div class="butt">
+                    <button>View Details</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pic">
+                    <img src="images/house2.jpg" alt="House 1">
+                </div>
+                <div class="price">
+                    <h2>₱3,500,000</h2>
+                </div>
+                <div class="location">
+                    <h2>Taguig, City</h2>
+                </div>
+                <div class="keyfeat">
+                    <ul>
+                        <li>5 Beds</li>
+                        <li>7 Baths</li>
+                        <li>150 sqm.</li>
+                    </ul>
+                </div>
+                <div class="butt">
+                    <button>View Details</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pic">
+                    <img src="images/house3.jpg" alt="House 1">
+                </div>
+                <div class="price">
+                    <h2>₱1,000,000</h2>
+                </div>
+                <div class="location">
+                    <h2>Paranaque, City</h2>
+                </div>
+                <div class="keyfeat">
+                    <ul>
+                        <li>3 Beds</li>
+                        <li>2 Baths</li>
+                        <li>120 sqm.</li>
+                    </ul>
+                </div>
+                <div class="butt">
+                    <button>View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="property-categories">
+  <h2>Browse by Need</h2>
+  <div class="category-grid">
+    <div class="category-card">
+      <img src="icons/buy.svg" alt="Buy Icon">
+      <h3>Buy a Home</h3>
+    </div>
+    <div class="category-card">
+      <img src="icons/rent.svg" alt="Rent Icon">
+      <h3>Rent a Property</h3>
+    </div>
+    <div class="category-card">
+      <img src="icons/commercial.svg" alt="Commercial Icon">
+      <h3>Commercial Spaces</h3>
+    </div>
+    <div class="category-card">
+      <img src="icons/luxury.svg" alt="Luxury Icon">
+      <h3>Luxury Listings</h3>
+    </div>
+    <div class="category-card">
+      <img src="icons/newdev.svg" alt="New Developments Icon">
+      <h3>New Developments</h3>
+    </div>
+  </div>
+</section>
+<section class="why-choose-us">
+  <h2>Why Choose Jester & Co.?</h2>
+  <div class="benefits-grid">
+    <div class="benefit-card">
+      <img src="icons/trusted.svg" alt="Trusted Agents">
+      <h3>Trusted Agents</h3>
+      <p>Work with experienced, professional, and reliable real estate agents.</p>
+    </div>
+    <div class="benefit-card">
+      <img src="icons/verified.svg" alt="Verified Listings">
+      <h3>Verified Listings</h3>
+      <p>All properties are verified to ensure real, updated, and honest offers.</p>
+    </div>
+    <div class="benefit-card">
+      <img src="icons/secure.svg" alt="Secure Process">
+      <h3>Fast & Secure Process</h3>
+      <p>Enjoy a smooth and protected transaction from start to finish.</p>
+    </div>
+    <div class="benefit-card">
+      <img src="icons/support.svg" alt="Expert Support">
+      <h3>Expert Support</h3>
+      <p>Our team is ready to assist you anytime with expert advice and guidance.</p>
+    </div>
+  </div>
+</section>
+<section class="agents-testimonials">
+  <div class="agents">
+    <h2>Meet Our Agents</h2>
+    <div class="agent-carousel">
+      <div class="agent-card">
+        <img src="images/agent.jpg" alt="Agent Name">
+        <h3>Carl Jester Canon</h3>
+        <p>Specialist in luxury and commercial listings.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+      <p>"Smooth and fast transaction. Highly recommended!"</p>
+      <span>- Michael De Santa</span>
+    </div>
+    <div class="testimonial">
+      <p>"Their agents really listened to what I needed."</p>
+      <span>- Franklin Clinton</span>
+    </div>
+  </div>
+</section>
+<section class="cta-banner">
+  <div class="cta-content">
+    <h2>Ready to make your next move?</h2>
+    <a href="#contact" class="cta-button">Contact an Agent</a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-container">
+    
+    <div class="footer-section quick-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Buy</a></li>
+        <li><a href="#">Rent</a></li>
+        <li><a href="#">Sell</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section contact-info">
+      <h3>Contact Us</h3>
+      <p>📞 (02) 1234-5678</p>
+      <p>📧 jestermanalo406@gmail.com</p>
+      <p>🏢 123 Makati Ave, Makati City</p>
+    </div>
+
+    <div class="footer-section social-newsletter">
+      <h3>Stay Connected</h3>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/carl.jester.0317" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/_https.jesss?igsh=MXJrZmJ4YnkzNHdvMA==" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Your email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Jester & Co. All rights reserved.</p>
+    <ul>
+      <li><a href="#">Terms of Use</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>
